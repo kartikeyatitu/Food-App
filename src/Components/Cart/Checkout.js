@@ -14,8 +14,7 @@ const Checkout=(props)=>{
     }
     const enteredName=nameInputref.current.value;
     const enteredStreet=streetInputref.current.value;
-    const enteredPostalCode=postalCodeInputref.current.value;
-    const enteredCity=cityInputref.current.value;
+  
    
 return (<form  className={classes.form}  onSubmit={confirmHandler}> 
 
